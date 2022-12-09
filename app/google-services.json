@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "498699991103",
+    "firebase_url": "https://foodknight-207b5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "foodknight-207b5",
+    "storage_bucket": "foodknight-207b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498699991103:android:66febfb1bf058ce549a08a",
+        "android_client_info": {
+          "package_name": "com.android.example.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMeTXEkOQaP_q5MghRaxKxueAfus0u1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498699991103:android:9742a46f6ebc4bb249a08a",
+        "android_client_info": {
+          "package_name": "com.example.foodknight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMeTXEkOQaP_q5MghRaxKxueAfus0u1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498699991103:android:229d4bb77ad7c85d49a08a",
+        "android_client_info": {
+          "package_name": "com.example.foodknight_with_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMeTXEkOQaP_q5MghRaxKxueAfus0u1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498699991103:android:1e7ab940a5e909d549a08a",
+        "android_client_info": {
+          "package_name": "com.programmingtech.cafy_theofficecafeteria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMeTXEkOQaP_q5MghRaxKxueAfus0u1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498699991103-12bd699rk5kb1ovoii5d8jqfdegucbu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/homeFragment_Cust">
+
+    <fragment
+        android:id="@+id/homeFragment_Cust"
+        android:name="com.example.foodknight_with_firebase.ui.home_cust.HomeFragment_Cust"
+        tools:layout="@layout/fragment_home_cust">
+        <action
+            android:id="@+id/action_homeFragment_Cust_to_orderHistoryActivity"
+            app:destination="@id/orderHistoryActivity" />
+        <action
+            android:id="@+id/action_homeFragment_Cust_to_customerProfile2"
+            app:destination="@id/customerProfile2" />
+    </fragment>
+    <activity
+        android:id="@+id/orderHistoryActivity"
+        android:name="com.example.foodknight_with_firebase.OrderHistoryActivity"
+        tools:layout="@layout/activity_order_history" />
+    <activity
+        android:id="@+id/resetPasswordActivity2"
+        android:name="com.example.foodknight_with_firebase.ResetPasswordActivity"
+        tools:layout="@layout/activity_reset_password" />
+    <fragment
+        android:id="@+id/customerProfile2"
+        android:name="com.example.foodknight_with_firebase.ui.customerProfile.customerProfile"
+        tools:layout="@layout/customer_profile_fragment">
+        <action
+            android:id="@+id/action_customerProfile2_to_resetPasswordActivity2"
+            app:destination="@id/resetPasswordActivity2" />
+        <action
+            android:id="@+id/action_customerProfile2_to_homeFragment_Cust"
+            app:destination="@id/homeFragment_Cust" />
+    </fragment>
+</navigation>

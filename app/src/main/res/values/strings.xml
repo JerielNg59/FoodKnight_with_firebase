@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">FoodKnight</string>
+    <string name="started_title">Welcome To Foodknight</string>
+    <string name="started_sub_title">Nice to meet you, come join our community!\n
+        <br><b>Login</b> if you already have an account</br>\n
+        <br><b>Register</b> to get started with our app </br>
+    </string>
+    <string name="illustration_img">illustration image</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to App</string>
+    <string name="login_sub_title">
+        <font color="#00C9B8"><b>Login</b></font>
+        if you already have an account.
+    </string>
+    <string name="login_email">Your Email</string>
+    <string name="login_password">Your Password</string>
+    <string name="login_forgot_pw">Forgot Password?</string>
+    <string name="login_havent_account">
+        I don\'t have an account
+        <font color="#00C988"><b>Register</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        <font color="#00C9B8"><b>Register</b></font>
+        to get started with the app.
+    </string>
+    <string name="register_fullname">Your Full Name</string>
+    <string name="register_email">Your Email</string>
+    <string name="register_username">Your Username</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_have_account">
+        I already have account
+        <font color="#00C988"><b>Login</b></font>
+    </string>
+    <string name="register_role">Your Role (Merchant / Customer)</string>
+    <string name="register_address">Address (For Merchant only)</string>
+    <string name="home_title">Hello World</string>
+    <string name="home_sub_title">Welcome to homepage</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="reset_pw_title">Reset Your Password</string>
+    <string name="reset_pw_sub_title">
+        <font color="#00C988">Reset Password</font>
+        if you forgot your password.
+    </string>
+    <string name="btn_reset_pw">RESET PASSWORD</string>
+    <string name="back_to_login">
+        Back to
+        <font color="#00C988"><b>Login</b></font>
+    </string>
+    <string name="register_hpno">Phone number</string>
+    <string name="title_activity_customer_drawer">CustomerDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="register_merchant_sub_title">
+        <font color="#00C9B8"><b>Register Now</b></font> \n to become a new seller.
+    </string>
+    <string name="edit_profile_sub_title">
+        <font color="#00C9B8"><b>Press   📝</b></font>
+        to edit your information.
+    </string>
+    <string name="profile_reminder">Press <font color="#00C988"><b>Here</b></font>
+        To Edit Your Password
+    </string>
+    <string name="button">Button</string>
+    <string name="food_name">Food Name</string>
+    <string name="price">Price</string>
+    <string name="add_image">Add Image</string>
+    <string name="description">Description</string>
+    <string name="add_food">Add Food</string>
+    <string name="todo">TODO</string>
+    <string name="nav_editDel">Edit/Delete</string>
+    <string name="nav_sellerHome">Homepage</string>
+    <string name="home_page">Home Page</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="completed">Completed</string>
+    <string name="prepared">Prepared</string>
+    <string name="preparing">Preparing</string>
+    <string name="all">All</string>
+    <string name="food_list">Food List</string>
+    <string name="allFood">All Food</string>
+    <string name="title_activity_cust_drawer">CustDrawerActivity</string>
+    <string name="title_string">🍽️ Seller Homepage 🍽️</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="poi">poi</string>
+    <string name="zoom">15f</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

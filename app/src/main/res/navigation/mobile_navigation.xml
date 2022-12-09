@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/sellerHome">
+
+    <activity
+        android:id="@+id/sellerProfileActivity"
+        android:name="com.example.foodknight_with_firebase.SellerProfileActivity"
+        android:label="activity_seller_profile"
+        tools:layout="@layout/activity_seller_profile" />
+    <fragment
+        android:id="@+id/addFood"
+        android:name="com.example.foodknight_with_firebase.ui.addFood.addFood" />
+    <fragment
+        android:id="@+id/editDel"
+        android:name="com.example.foodknight_with_firebase.ui.editDel.editDel">
+        <action
+            android:id="@+id/action_editDel_to_allFood"
+            app:destination="@id/allFood" />
+    </fragment>
+    <fragment
+        android:id="@+id/allFood"
+        android:name="com.example.foodknight_with_firebase.ui.allFood.allFood"
+        tools:layout="@layout/all_food_fragment">
+        <action
+            android:id="@+id/action_allFood_to_editDel"
+            app:destination="@id/editDel" />
+    </fragment>
+    <fragment
+        android:id="@+id/sellerHome"
+        android:name="com.example.foodknight_with_firebase.ui.sellerHome.sellerHome"
+        tools:layout="@layout/seller_home_fragment">
+        <action
+            android:id="@+id/action_sellerHome_to_allFood"
+            app:destination="@id/allFood" />
+        <action
+            android:id="@+id/action_sellerHome_to_addFood"
+            app:destination="@id/addFood" />
+        <action
+            android:id="@+id/action_sellerHome_to_editDel"
+            app:destination="@id/editDel" />
+        <action
+            android:id="@+id/action_sellerHome_to_sellerProfileV2"
+            app:destination="@id/sellerProfileV2" />
+    </fragment>
+    <fragment
+        android:id="@+id/sellerProfileV2"
+        android:name="com.example.foodknight_with_firebase.ui.sellerProfileV2.sellerProfileV2"
+        tools:layout="@layout/seller_profile_v2_fragment">
+        <action
+            android:id="@+id/action_sellerProfileV2_to_resetPasswordActivity"
+            app:destination="@id/resetPasswordActivity" />
+        <action
+            android:id="@+id/action_sellerProfileV2_to_mapsActivity"
+            app:destination="@id/mapsActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/resetPasswordActivity"
+        android:name="com.example.foodknight_with_firebase.ResetPasswordActivity"
+        tools:layout="@layout/activity_reset_password" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.foodknight_with_firebase.MapsActivity"
+        tools:layout="@layout/activity_maps" />
+</navigation>
